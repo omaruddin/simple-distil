@@ -1,0 +1,28 @@
+=== Simple Distil for Wordpress ===
+Author: Omar Uddin
+Tags: wordpress, distil, cache, bot protection, scraping protection, CDN
+Plugin link: http://uvision.co/
+Requires at least: 2.6
+Tested up to: 4.X
+Version: 1.0
+Stable tag: 1.0
+
+== Description ==
+Simple distil plugin allows you to control your cache clear for your Distil site
+Just add your Auth Key, and enter the domain UUID.   
+
+== Installation ==
+This plugin follows the [standard WordPress installation method][]:
+
+1. Upload the 'simple-distil.zip' file to the `/wp-content/plugins/` directory using wget, curl of ftp.
+2. 'unzip' the 'simple-distil.zip' which will create the folder to the directory `/wp-content/plugins/simple-distil`
+3. Activate the plugin through the 'Plugins' menu in WordPress
+4. Configure the plugin through 'Simple Distil' submenu in the the 'Settings' section of the Wordpress admin menu
+5. Add your Auth Key and UDID there.
+8. Hit Save & check Distil dashboard for this project.
+
+[standard WordPress installation method]: http://codex.wordpress.org/Managing_Plugins#Installing_Plugins
+
+== Changelog ==
+= version 1.0 =
+* Add initial plugin code
